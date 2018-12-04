@@ -4,3 +4,23 @@ html {
 
 	font: normal 100%/1.4 Arial,sans-serif;
 }
+
+.current {
+	background-color: #fab95b;
+	color: #333;
+}
+
+.nav {
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+.nav-top {
+	font-size: 1.25rem;
+}
