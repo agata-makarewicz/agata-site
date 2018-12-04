@@ -8,14 +8,14 @@
 
 	<header>
 		<h1>Moja testowa strona</h1>
-		<nav>
-			<ul>
-				<li><a href="{{site.baseurl}}/index.html">Strona główna</a></li>
-				<li><a href="{{site.baseurl}}/blog.html">Blog</a></li>
-			</ul>
-		</nav>
+		{% include nav.html %}
 	</header>
 
 	{{content}}
+
+	<footer>
+		{% include nav.html %}
+		<p>© 2018 Agata M.</p>
+	</footer>
 </body>
 </html>
