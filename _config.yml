@@ -1,2 +1,3 @@
 baseurl: /agata-site
 exclude: ['README.md']
+permalink: pretty
