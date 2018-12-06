@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, figure,
+blockquote, table, hr {
+	margin: 0 0 1.5rem 0;
+}
+
+
+.jotta {
+	font-size: 4.7675rem;
+	line-height: 0.944;
+}
+
+.zetta {
+	font-size: 3.814rem;
+	line-height: 1.18;
+}
+
+h1, .eksa {
+	font-size: 3.0512rem;
+	line-height: 0.983;
+}
+
+h2, .peta {
+	font-size: 2.441rem;
+	line-height: 1.229;
+}
+
+h3, .tera {
+	font-size: 1.1953rem;
+	line-height: 1.255;
+}
+
+h4, .giga {
+	font-size: 1.563rem;
+	line-height: 0.960;
+}
+
+h5, .mega {
+	font-size: 1.25rem;
+	line-height: 1.2;
+}
+
+h6, .kilo {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.mili {
+	font-size: 0.707rem;
+	line-height: 0;
+}
+
+.mikro {
+	font-size: 0.5rem
+	line-height: 0;
+}
+
+.push {
+	margin-bottom: 1.5rem;
+}
+
+.push-half {
+	margin-bottom: 0.75rem;
+}
+
+.push-double {
+	margin-bottom: 3rem;
+}
+
+.pad-top, .pad-t {
+	padding-top: 1.5rem;
+}
+
+.pad-bottom,.pad-b {
+	padding-bottom: 1.5rem;
+}
+
+.pad-top-double, .pad-t-2 {
+	padding-top: 3rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+	padding-bottom: 3rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+	padding-top: 0.75rem;
+}
+
+.pad-bottom-hal, .pad-b-1-2 {
+	padding-bottom: 0.75rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand {
+	font-family: Lora,'Times New Roman',serif;
+	font-weight: normal;
+}
+
+.brand-family {
+	font-family: Lora,'Times New Roman',serif;
+}
