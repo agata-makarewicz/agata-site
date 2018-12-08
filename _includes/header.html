@@ -1,0 +1,15 @@
+<header class="masthead island">
+	<div class="grid grid-middle">
+		<div class="nav nav-logo unit unit-s-1 unit-m-1 unit-l-1-3">
+			<h1 class="push-0">Agata</h1>
+		</div>
+		<nav class="unit unit-s-1 unit-m-1 unit-l-2-3">
+			<ul class="nav {{include.navclass}} list-group tera nav push-0">
+				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/index" class="{% if page.url == '/' %}current{% endif %}">Strona główna</a></li>
+				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/blog/" class="{% if page.url == '/blog/' %}current{% endif %}">Blog</a></li>
+				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">O mnie</a></li>
+				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">Kontakt</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>

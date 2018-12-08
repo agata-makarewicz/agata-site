@@ -16,21 +16,11 @@
 </head>
 <body>
 
-	<header>
-		<div>
-			<div>
-				<h1>Agata</h1>
-			</div>
-			<div>
-				{% include nav.html navclass='nav-top' %}
-			</div>
-		</div>
-	</header>
+	{% include header.html %}
 
 	{{content}}
 
 	<footer>
-		{% include nav.html navclass='nav-bottom' %}
 		<p>© 2018 Agata M.</p>
 	</footer>
 </body>
