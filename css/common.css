@@ -36,6 +36,16 @@ body {
 	position: relative;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .nav {
 	text-align: center;
 	vertical-align: bottom;
