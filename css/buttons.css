@@ -1,0 +1,21 @@
+.btn {
+	padding: 0.7em 0.9em 0.6em 0.9em;
+	display: inline-block;
+	background-color: #28c7c7;
+	border-radius: 4px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #187878
+}
+
+.btn-red {
+	background-color: #ff4747;
+}
+
+.btn-red:hover {
+	background-color: #b03131;
+}
