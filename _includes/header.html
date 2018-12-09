@@ -1,15 +1,17 @@
 <header class="masthead island" id="myHeader">
-	<div class="grid grid-middle">
-		<div class="nav nav-logo unit unit-s-1 unit-m-1 unit-l-1-3">
-			<h1 class="push-0">Agata</h1>
-		</div>
-		<nav class="unit unit-s-1 unit-m-1 unit-l-2-3">
-			<ul class="nav {{include.navclass}} list-group tera nav push-0">
-				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/index" class="{% if page.url == '/' %}current{% endif %}">Strona główna</a></li>
-				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/blog/" class="{% if page.url == '/blog/' %}current{% endif %}">Blog</a></li>
-				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">O mnie</a></li>
-				<li class="list-group-item-inline menu-item"><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">Kontakt</a></li>
-			</ul>
-		</nav>
-	</div>
+  <div class="grid grid-middle">
+    <div class="nav-logo unit unit-s-1 unit-m-1-2 unit-l-1-3">
+      <h1 class="peta push-m-0 push-l-0">Agata</h1>
+    </div>
+    <nav class="nav-item unit unit-s-1 unit-m-1-2 unit-l-2-3">    
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">Menu</label>
+      <ul class="nav">
+        <li class="menu-item tera"><a href="{{site.baseurl}}/index" class="{% if page.url == '/' %}current{% endif %}">Strona główna</a></li>
+        <li class="menu-item tera"><a href="{{site.baseurl}}/blog/" class="{% if page.url == '/blog/' %}current{% endif %}">Blog</a></li>
+        <li class="menu-item tera"><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">O mnie</a></li>
+        <li class="menu-item tera"><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>

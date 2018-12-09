@@ -46,31 +46,6 @@ body {
   padding-top: 102px;
 }
 
-.nav {
-	text-align: center;
-	vertical-align: bottom;
-}
-
-@media screen and (min-width: 50em) {
-	.nav {
-		text-align: right;
-	}	
-}
-
-@media screen and (min-width: 50em) {
-	.nav-logo {
-		text-align: left;
-	}	
-}
-
-.menu-item {
-	padding: 0 0.5em;
-}
-
-.menu-item > a {
-	text-decoration: none;
-}
-
 .current {
 	border-bottom: solid 4px #fdd500;
 	padding-bottom: 2px;

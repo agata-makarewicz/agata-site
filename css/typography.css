@@ -74,6 +74,18 @@ h6, .kilo {
 	margin-bottom: 0;
 }
 
+@media screen and (min-width: 30em) {
+	.push-m-0 {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 50em) {
+	.push-l-0 {
+		margin-bottom: 0;
+	}
+}
+
 .pad-top, .pad-t {
 	padding-top: 1.5rem;
 }
