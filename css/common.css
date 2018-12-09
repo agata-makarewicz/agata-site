@@ -33,7 +33,7 @@ body {
 
 .masthead {
 	background-color: #fff;
-	position: relative;
+	z-index: 1000;
 }
 
 .sticky {
@@ -75,4 +75,14 @@ body {
 	border-bottom: solid 4px #fdd500;
 	padding-bottom: 2px;
 	color: #1f1f1f;
+}
+
+.hero-img {
+	object-fit: cover;
+}
+
+.footer {
+	background-color: #187878;
+	color: #fff;
+	text-align: center;
 }

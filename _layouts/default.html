@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/buttons.css">
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/media-object.css">
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/embed.css">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 </head>
 <body>
 
@@ -20,9 +21,8 @@
 
 	{{content}}
 
-	<footer>
-		<p>© 2018 Agata M.</p>
-	</footer>
+	{% include footer.html %}
+
 <script>
 window.onscroll = function() {myFunction()};
 

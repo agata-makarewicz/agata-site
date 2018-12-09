@@ -1,5 +1,5 @@
 .grid {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-rendering: optimizeSpeed;
   display: -webkit-flex;
@@ -8,6 +8,7 @@
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  max-width: 70em;
 }
 
 .grid-bottom {
