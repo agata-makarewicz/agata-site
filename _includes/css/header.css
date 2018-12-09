@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.nav-logo a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+
 .nav-item {
   text-align: center;
 }

@@ -114,8 +114,15 @@ h1, h2, h3, h4, h5, h6,
 .brand {
 	font-family: Lora,'Times New Roman',serif;
 	font-weight: normal;
+	font-style: italic;
+
 }
 
 .brand-family {
 	font-family: Lora,'Times New Roman',serif;
+}
+
+.post-title a {
+	color: #1f1f1f;
+	text-decoration: none;
 }

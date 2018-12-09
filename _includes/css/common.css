@@ -66,3 +66,10 @@ body {
 .divider {
 	border-top: 1px solid #ff4747;
 }
+
+.TitleBanner {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
+}
