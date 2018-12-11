@@ -70,7 +70,7 @@ body {
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(40, 199, 199, 0.4)), url("/img/tea.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(253, 213, 0, 0.5)), url("/img/tea.jpg");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
