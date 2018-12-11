@@ -1,5 +1,2 @@
 exclude: ['README.md']
-permalink: pretty
-baseurl: /agata-site
-plugins:
-  - jekyll-feed
+permalinks: pretty
