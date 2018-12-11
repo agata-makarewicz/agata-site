@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: agata-makarewicz/agata-site
+
+media_folder: "img"
