@@ -3,3 +3,15 @@ backend:
   repo: agata-makarewicz/agata-site
 
 media_folder: "img"
+
+collections:
+  - name: "website-settings"
+    label: "Settings"
+    files:
+      - label: "Settings"
+        name: "site"
+        file: "_data/site.yml"
+        fields:
+          - label: "Tel"
+            name: "tel"
+            width: "string"
