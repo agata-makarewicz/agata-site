@@ -7,7 +7,7 @@
       <input type="checkbox" class="nav-check" id="nav-check">
       <label class="nav-label" for="nav-check">Menu</label>
       <ul class="nav">
-        <li class="menu-item tera"><a href="{{site.baseurl}}/index/" class="{% if page.url == '/index/' %}current{% endif %}">Strona główna</a></li>
+        <li class="menu-item tera"><a href="{{site.baseurl}}/index/" class="{% if page.url contains '/index/' %}current{% endif %}">Strona główna</a></li>
         <li class="menu-item tera"><a href="{{site.baseurl}}/blog/" class="{% if page.url == '/blog/' %}current{% endif %}">Blog</a></li>
         <li class="menu-item tera"><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">O mnie</a></li>
         <li class="menu-item tera"><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">Kontakt</a></li>
