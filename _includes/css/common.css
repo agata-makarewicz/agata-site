@@ -67,3 +67,10 @@ body {
 .divider {
 	border-top: 1px solid #ff4747;
 }
+
+.title-banner {
+  	background-size: cover;
+  	background-position: center;
+  	text-align: center;
+  	vertical-align: middle;
+}
