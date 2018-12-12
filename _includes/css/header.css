@@ -1,5 +1,5 @@
 .nav-logo {
-  text-align: center;
+  text-align: left;
 }
 
 .nav-logo a {
@@ -7,64 +7,105 @@
   text-decoration: none;
 }
 
-.nav-item {
-  text-align: center;
+@media screen and (min-width: 70em) {
+  .menu-mobile {
+    display: none;
+    visibility: hide;
+  }
 }
 
-.nav {
+@media screen and (max-width: 70em) {
+  .menu-desktop {
+    display: none;
+    visibility: hide;
+  }  
+}
+
+.menu-mobile__button {
+  text-align: right;
+}
+
+.menu-mobile__button a {
+  text-decoration: none;
+  color: #1f1f1f;
+  border: 0;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 4px;
+  padding: 0.7em 0.9em 0.6em 0.9em;
+}
+
+.navigation {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: none;
+}
+
+.navigation-mobile {
   text-align: center;
 }
 
-.menu-item {
+.navigation-desktop {
+  text-align: right;
+}
+
+.navigation__item {
   padding: 0.5rem;
 }
 
-.menu-item > a {
+.navigation__item > a {
   text-decoration: none;
   color: #1f1f1f;
 }
 
-.nav-label {
-  cursor: pointer;
-  font-size: 1.25rem;
+.menu-mobile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0,1); 
+  transition: transform 150ms ease-in-out;
+  transform-origin: right; 
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(255, 255, 255, .5);
+  // box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .25);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
 }
 
-@media screen and (min-width: 30em) {
-  .nav-logo {
-    text-align: left;
-  }
-
-  .nav-item {
-    text-align: right;
-  }
-
-  .nav {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
-  }
-
-  .menu-item {
-    display: inline-block;
-  }
-
-  .nav-label {
-    display: none;
-    visibility: hidden;
-  }
+.menu-mobile-box:target {
+  transform: scale(1,1);
+  transform-origin: left; 
 }
 
-.nav-check {
+.menu-mobile-box__content {
+  width: 75%;
+  padding: 1.5em;
+  background: #fff;
+  position: relative;
+}
+
+.close {
   position: absolute;
-  top: -3em;
+  right: 0em;
+  top: 0em;
+  border: 0;
+  display: flex;
+  width: 2em;
+  height: 2em;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.nav-check:checked ~ .nav {
-  display: block;
+.close::after {
+  content: "✗";
+  color: #1f1f1f;
+  font-weight: normal;
+  font-size: 1.25em;
 }
+

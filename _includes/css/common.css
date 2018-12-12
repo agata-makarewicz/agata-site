@@ -70,7 +70,7 @@ body {
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(253, 213, 0, 0.5)), url("/img/tea.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.2)), url("/img/tea.jpg");
     padding: 30vh 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,5 +88,5 @@ body {
 }
 
 .hero-text-shadow {
-	text-shadow: 1px 1px #fff;
+	text-shadow: 1px 2px #fff;
 }

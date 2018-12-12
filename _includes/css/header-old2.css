@@ -1,0 +1,62 @@
+.nav-logo {
+  text-align: left;
+}
+
+.nav-logo a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu-item {
+  padding: 0.5rem;
+}
+
+.menu-item > a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 30em) {
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .menu-item {
+    display: inline-block;
+  }
+
+  .nav-label {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
